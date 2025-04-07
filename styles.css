@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(/imagens/margarida\ 1.svg);
+    background-repeat: no-repeat;
+  padding-top: 60px;
+  
+  
+}
+
+
+
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+    height: 450px;
+    
+   
+}
+
+form input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid rgba(247, 218, 101, 1);
+
+}
+
+form :placeholder-shown{
+    padding-left: 10px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.916);
+    border-radius: 5px;
+}
+
+button{
+    font-family: "Bebas Neue", sans-serif;
+  color: white;
+    width: 80px;
+    height: 40px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+   background-color: rgba(247, 218, 101, 1);
+   border: none;
+}
+
